@@ -41,7 +41,7 @@ class Graph:
             for secondRobotPosition in self.robotPositions.keys():
                 if firstRobotPosition != secondRobotPosition:
                     distance = self.getEuclidianDistance(firstRobotPosition, secondRobotPosition)
-                    print("The network delay between the robots is: ", distance, "units")
+                    print("The network delay between 2 robots is: ", distance, "units")
 
 graph = Graph()
 graph.createRandomRobots(3)
